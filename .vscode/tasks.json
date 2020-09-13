@@ -8,16 +8,16 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "Chapter4_TonyGaddis/main.cpp",
+                "BankCharges/main.cpp",
                 "-o",
-                "Chapter4_TonyGaddis/main"
+                "BankCharges/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "Chapter4_TonyGaddis/main",
+            "command": "BankCharges/main",
             "dependsOn":[
                 "build"
             ],
