@@ -8,16 +8,16 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "BankCharges/main.cpp",
+                "InternetServiceProvider/main.cpp",
                 "-o",
-                "BankCharges/main"
+                "InternetServiceProvider/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "BankCharges/main",
+            "command": "InternetServiceProvider/main",
             "dependsOn":[
                 "build"
             ],
