@@ -8,16 +8,16 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "InternetServiceProvider/main.cpp",
+                "DoWhile_MenuOption/main.cpp",
                 "-o",
-                "InternetServiceProvider/main"
+                "DoWhile_MenuOption/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "InternetServiceProvider/main",
+            "command": "DoWhile_MenuOption/main",
             "dependsOn":[
                 "build"
             ],
