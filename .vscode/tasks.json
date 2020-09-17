@@ -8,16 +8,16 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "DoWhile_MenuOption/main.cpp",
+                "nestedLoops/main.cpp",
                 "-o",
-                "DoWhile_MenuOption/main"
+                "nestedLoops/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "DoWhile_MenuOption/main",
+            "command": "nestedLoops/main",
             "dependsOn":[
                 "build"
             ],
