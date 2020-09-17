@@ -8,16 +8,16 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "nestedLoops/main.cpp",
+                "ReadingInputDataFromFile/main.cpp",
                 "-o",
-                "nestedLoops/main"
+                "ReadingInputDataFromFile/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "nestedLoops/main",
+            "command": "ReadingInputDataFromFile/main",
             "dependsOn":[
                 "build"
             ],
