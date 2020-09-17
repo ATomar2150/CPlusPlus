@@ -8,16 +8,16 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "ReadingInputDataFromFile/main.cpp",
+                "UserSpecifyFileName/main.cpp",
                 "-o",
-                "ReadingInputDataFromFile/main"
+                "UserSpecifyFileName/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "ReadingInputDataFromFile/main",
+            "command": "UserSpecifyFileName/main",
             "dependsOn":[
                 "build"
             ],
