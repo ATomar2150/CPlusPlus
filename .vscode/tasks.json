@@ -8,16 +8,16 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "UserSpecifyFileName/main.cpp",
+                "break_InFiles/main.cpp",
                 "-o",
-                "UserSpecifyFileName/main"
+                "break_InFiles/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "UserSpecifyFileName/main",
+            "command": "break_InFiles/main",
             "dependsOn":[
                 "build"
             ],
