@@ -8,16 +8,16 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "break_InFiles/main.cpp",
+                "Menu-Driven-Program/main.cpp",
                 "-o",
-                "break_InFiles/main"
+                "Menu-Driven-Program/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "break_InFiles/main",
+            "command": "Menu-Driven-Program/main",
             "dependsOn":[
                 "build"
             ],
