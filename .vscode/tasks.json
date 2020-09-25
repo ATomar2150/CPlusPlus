@@ -8,16 +8,16 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "Menu-Driven-Program/main.cpp",
+                "Student_Line_Up/main.cpp",
                 "-o",
-                "Menu-Driven-Program/main"
+                "Student_Line_Up/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "Menu-Driven-Program/main",
+            "command": "Student_Line_Up/main",
             "dependsOn":[
                 "build"
             ],
