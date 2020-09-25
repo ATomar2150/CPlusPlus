@@ -3,9 +3,9 @@ using namespace std;
 
 int main ()
 {
+    int month;
     double annualInterest;
     double balance;
-    int month;
     double deposited;
     double withdrawn;
     double totalDeposit=0.0;
@@ -81,10 +81,10 @@ int main ()
     }
 
     cout<<"Here is the gathered statistics,\n";
-    cout<<"The ending balance: "<<balance<<std::endl;
-    cout<<"   Total deposited: "<< totalDeposit<<std::endl;
-    cout<<" Total withdrawals: "<< totalWithdraw<<std::endl;
-    cout<<"   Earned interest: "<< earnedInterest<<std::endl;
+    cout<<"The ending balance: "<<balance<<endl;
+    cout<<"Total deposited: "<< totalDeposit<<endl;
+    cout<<"Total withdrawals: "<< totalWithdraw<<endl;
+    cout<<"Earned interest: "<< earnedInterest<<endl;
     cout<<"============================================\n";
     return 0;
 
