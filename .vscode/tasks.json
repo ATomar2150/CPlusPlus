@@ -8,16 +8,16 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "Student_Line_Up/main.cpp",
+                "SavingsAccountBalance/main.cpp",
                 "-o",
-                "Student_Line_Up/main"
+                "SavingsAccountBalance/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "Student_Line_Up/main",
+            "command": "SavingsAccountBalance/main",
             "dependsOn":[
                 "build"
             ],
