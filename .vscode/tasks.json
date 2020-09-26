@@ -8,16 +8,16 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "SavingsAccountBalance/main.cpp",
+                "UsingFiles_NumericProcessing/main.cpp",
                 "-o",
-                "SavingsAccountBalance/main"
+                "UsingFiles_NumericProcessing/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "SavingsAccountBalance/main",
+            "command": "UsingFiles_NumericProcessing/main",
             "dependsOn":[
                 "build"
             ],
