@@ -8,16 +8,16 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "UsingFiles_NumericProcessing/main.cpp",
+                "UsingFiles_StudentLineUp/main.cpp",
                 "-o",
-                "UsingFiles_NumericProcessing/main"
+                "UsingFiles_StudentLineUp/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "UsingFiles_NumericProcessing/main",
+            "command": "UsingFiles_StudentLineUp/main",
             "dependsOn":[
                 "build"
             ],
