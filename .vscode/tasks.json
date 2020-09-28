@@ -8,16 +8,16 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "UsingFiles_StudentLineUp/main.cpp",
+                "areaOfCircle/main.cpp",
                 "-o",
-                "UsingFiles_StudentLineUp/main"
+                "areaOfCircle/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "UsingFiles_StudentLineUp/main",
+            "command": "areaOfCircle/main",
             "dependsOn":[
                 "build"
             ],
