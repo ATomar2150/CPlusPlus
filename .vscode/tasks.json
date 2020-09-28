@@ -8,16 +8,16 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "areaOfCircle/main.cpp",
+                "boolValue/main.cpp",
                 "-o",
-                "areaOfCircle/main"
+                "boolValue/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "areaOfCircle/main",
+            "command": "boolValue/main",
             "dependsOn":[
                 "build"
             ],
