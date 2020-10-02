@@ -8,16 +8,16 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "boolValue/main.cpp",
+                "CoinToss/main.cpp",
                 "-o",
-                "boolValue/main"
+                "CoinToss/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "boolValue/main",
+            "command": "CoinToss/main",
             "dependsOn":[
                 "build"
             ],
