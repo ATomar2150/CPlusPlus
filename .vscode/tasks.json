@@ -8,16 +8,16 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "CoinToss/main.cpp",
+                "StockProfit/main.cpp",
                 "-o",
-                "CoinToss/main"
+                "StockProfit/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "CoinToss/main",
+            "command": "StockProfit/main",
             "dependsOn":[
                 "build"
             ],
