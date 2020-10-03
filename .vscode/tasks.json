@@ -8,16 +8,16 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "StockProfit/main.cpp",
+                "isPrimeFunction/main.cpp",
                 "-o",
-                "StockProfit/main"
+                "isPrimeFunction/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "StockProfit/main",
+            "command": "isPrimeFunction/main",
             "dependsOn":[
                 "build"
             ],
