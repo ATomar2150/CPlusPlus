@@ -8,16 +8,17 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "isPrimeFunction/main.cpp",
+                "-g",
+                "${workspaceFolder}/comparingValues/main.cpp",
                 "-o",
-                "isPrimeFunction/main"
+                "comparingValues/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "isPrimeFunction/main",
+            "command": "${workspaceFolder}/comparingValues/main",
             "dependsOn":[
                 "build"
             ],
