@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/ArrayFA2_passingArrayArguments/main.cpp",
+                "${workspaceFolder}/ProcessAnArray/main.cpp",
                 "-o",
-                "ArrayFA2_passingArrayArguments/main"
+                "ProcessAnArray/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/ArrayFA2_passingArrayArguments/main",
+            "command": "${workspaceFolder}/ProcessAnArray/main",
             "dependsOn":[
                 "build"
             ],
