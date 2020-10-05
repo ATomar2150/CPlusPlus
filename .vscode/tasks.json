@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/comparingValues/main.cpp",
+                "${workspaceFolder}/ArrayFA2_passingArrayArguments/main.cpp",
                 "-o",
-                "comparingValues/main"
+                "ArrayFA2_passingArrayArguments/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/comparingValues/main",
+            "command": "${workspaceFolder}/ArrayFA2_passingArrayArguments/main",
             "dependsOn":[
                 "build"
             ],
