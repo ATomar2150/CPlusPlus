@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/ProcessAnArray/main.cpp",
+                "${workspaceFolder}/PinChecking/main.cpp",
                 "-o",
-                "ProcessAnArray/main"
+                "PinChecking/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/ProcessAnArray/main",
+            "command": "${workspaceFolder}/PinChecking/main",
             "dependsOn":[
                 "build"
             ],
