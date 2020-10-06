@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/RainOrShine/main.cpp",
+                "${workspaceFolder}/lotteryApplication/main.cpp",
                 "-o",
-                "RainOrShine/main"
+                "lotteryApplication/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/RainOrShine/main",
+            "command": "${workspaceFolder}/lotteryApplication/main",
             "dependsOn":[
                 "build"
             ],
