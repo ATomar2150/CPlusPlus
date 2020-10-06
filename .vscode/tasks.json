@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/PinChecking/main.cpp",
+                "${workspaceFolder}/Vectors/main.cpp",
                 "-o",
-                "PinChecking/main"
+                "Vectors/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/PinChecking/main",
+            "command": "${workspaceFolder}/Vectors/main",
             "dependsOn":[
                 "build"
             ],
