@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/VectorSize/main.cpp",
+                "${workspaceFolder}/RainOrShine/main.cpp",
                 "-o",
-                "VectorSize/main"
+                "RainOrShine/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/VectorSize/main",
+            "command": "${workspaceFolder}/RainOrShine/main",
             "dependsOn":[
                 "build"
             ],
