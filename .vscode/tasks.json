@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/lotteryApplication/main.cpp",
+                "${workspaceFolder}/Tic-Tac-Toe/main.cpp",
                 "-o",
-                "lotteryApplication/main"
+                "Tic-Tac-Toe/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/lotteryApplication/main",
+            "command": "${workspaceFolder}/Tic-Tac-Toe/main",
             "dependsOn":[
                 "build"
             ],
