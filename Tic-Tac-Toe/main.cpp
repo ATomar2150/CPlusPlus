@@ -39,7 +39,7 @@ int main()
         bool player2result = winnerPlayer2(playerBoard, row);
         if(player1result == true || player2result == true)
         {
-            cout<<"We havve the WINNER"<<endl;
+            cout<<"EXIT SUCCESS"<<endl;
             break;
         }    
         count += 1;
@@ -143,17 +143,18 @@ void player2Insertion(char playerBoard[][col],int row,int c2, int r2)
 bool winnerPlayer1(char playerBoard[][col], int row)
 {   
     bool isWinner = false;
-    if(playerBoard[0][0]==playerBoard[1][1]==playerBoard[2][2]=='x' || playerBoard[2][0]==playerBoard[1][1]==playerBoard[0][2]=='x')
+    //not entering here.
+    if((playerBoard[0][0]==playerBoard[1][1]) && (playerBoard[1][1]==playerBoard[2][2]) && (playerBoard[2][2]=='o') || (playerBoard[2][0]==playerBoard[1][1]) && (playerBoard[1][1]==playerBoard[0][2]) && (playerBoard[0][2]=='x'))
     {
         cout<<"Player1 is a Winner.";
         isWinner = true;
     }
-    else if(playerBoard[0][0]==playerBoard[0][1]==playerBoard[0][2]=='x' || playerBoard[1][0]==playerBoard[1][1]==playerBoard[1][2] == 'x' || playerBoard[2][0]==playerBoard[2][1]==playerBoard[2][2]=='x')
+    else if((playerBoard[0][0]==playerBoard[0][1]) && (playerBoard[0][1]==playerBoard[0][2]) && (playerBoard[0][2]=='x') || (playerBoard[1][0]==playerBoard[1][1]) && (playerBoard[1][1]==playerBoard[1][2]) && (playerBoard[1][2] == 'x') || (playerBoard[2][0]==playerBoard[2][1]) && (playerBoard[2][1]==playerBoard[2][2]) && (playerBoard[2][2]=='x'))
     {
         cout<<"Player1 is a Winner.";
          isWinner = true;
     }
-    else if (playerBoard[0][0]==playerBoard[1][0]==playerBoard[2][0]=='x' || playerBoard[0][1]==playerBoard[1][1]==playerBoard[2][1] == 'x' || playerBoard[0][2]==playerBoard[1][2]==playerBoard[2][2]=='x')
+    else if((playerBoard[0][0]==playerBoard[1][0]) && (playerBoard[1][0]==playerBoard[2][0]) && (playerBoard[2][0]=='x') || (playerBoard[0][1]==playerBoard[1][1]) && (playerBoard[1][1]==playerBoard[2][1]) && (playerBoard[2][1] == 'x')|| (playerBoard[0][2]==playerBoard[1][2]) && (playerBoard[1][2]==playerBoard[2][2]) && (playerBoard[2][2]=='x'))
     {
          cout<<"Player1 is a Winner.";
           isWinner = true;
@@ -165,18 +166,18 @@ bool winnerPlayer1(char playerBoard[][col], int row)
 bool winnerPlayer2(char playerBoard[][col], int row)
 {
     bool isWinner = false;
-    if (playerBoard[0][0]==playerBoard[1][1]==playerBoard[2][2]=='o' || playerBoard[2][0]==playerBoard[1][1]==playerBoard[0][2]=='o')
+    if ((playerBoard[0][0]==playerBoard[1][1]) && (playerBoard[1][1]==playerBoard[2][2]) && (playerBoard[2][2]=='o') || (playerBoard[2][0]==playerBoard[1][1]) && (playerBoard[1][1]==playerBoard[0][2]) && (playerBoard[0][2]=='o'))
     {
         cout<<"Player2 is a Winner.";
          isWinner = true;
 
     }
-    else if(playerBoard[0][0]==playerBoard[0][1]==playerBoard[0][2]=='o' || playerBoard[1][0]==playerBoard[1][1]==playerBoard[1][2] == 'o' || playerBoard[2][0]==playerBoard[2][1]==playerBoard[2][2]=='o')
+    else if((playerBoard[0][0]==playerBoard[0][1]) && (playerBoard[0][1]==playerBoard[0][2]) && (playerBoard[0][2]=='o') || (playerBoard[1][0]==playerBoard[1][1]) && (playerBoard[1][1]==playerBoard[1][2]) && (playerBoard[1][2] == 'o') || (playerBoard[2][0]==playerBoard[2][1]) && (playerBoard[2][1]==playerBoard[2][2]) && (playerBoard[2][2]=='o'))
     {
          cout<<"Player2 is a Winner.";
           isWinner = true;
     }
-    else if(playerBoard[0][0]==playerBoard[1][0]==playerBoard[2][0]=='o' || playerBoard[0][1]==playerBoard[1][1]==playerBoard[2][1] == 'o' || playerBoard[0][2]==playerBoard[1][2]==playerBoard[2][2]=='o')
+    else if((playerBoard[0][0]==playerBoard[1][0]) && (playerBoard[1][0]==playerBoard[2][0]) && (playerBoard[2][0]=='o') || (playerBoard[0][1]==playerBoard[1][1]) && (playerBoard[1][1]==playerBoard[2][1]) && (playerBoard[2][1] == 'o')|| (playerBoard[0][2]==playerBoard[1][2]) && (playerBoard[1][2]==playerBoard[2][2]) && (playerBoard[2][2]=='o'))
     {
         cout<<"Player2 is a Winner.";
          isWinner = true;
