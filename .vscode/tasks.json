@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/Tic-Tac-Toe/main.cpp",
+                "${workspaceFolder}/BubbleSort/main.cpp",
                 "-o",
-                "Tic-Tac-Toe/main"
+                "BubbleSort/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/Tic-Tac-Toe/main",
+            "command": "${workspaceFolder}/BubbleSort/main",
             "dependsOn":[
                 "build"
             ],
