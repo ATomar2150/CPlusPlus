@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/Selection2/main.cpp",
+                "${workspaceFolder}/ChargeAccountSelectionSort/main.cpp",
                 "-o",
-                "Selection2/main"
+                "ChargeAccountSelectionSort/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/Selection2/main",
+            "command": "${workspaceFolder}/ChargeAccountSelectionSort/main",
             "dependsOn":[
                 "build"
             ],
