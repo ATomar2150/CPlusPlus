@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/Pointer/main.cpp",
+                "${workspaceFolder}/PointerFunctionParameter/main.cpp",
                 "-o",
-                "Pointer/main"
+                "PointerFunctionParameter/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/Pointer/main",
+            "command": "${workspaceFolder}/PointerFunctionParameter/main",
             "dependsOn":[
                 "build"
             ],
