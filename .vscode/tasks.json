@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/PointerFunctionParameter/main.cpp",
+                "${workspaceFolder}/DropLowestScore/main.cpp",
                 "-o",
-                "PointerFunctionParameter/main"
+                "DropLowestScore/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/PointerFunctionParameter/main",
+            "command": "${workspaceFolder}/DropLowestScore/main",
             "dependsOn":[
                 "build"
             ],
