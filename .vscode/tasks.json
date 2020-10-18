@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/MedianFunction/main.cpp",
+                "${workspaceFolder}/ArrayExpander/main.cpp",
                 "-o",
-                "MedianFunction/main"
+                "ArrayExpander/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/MedianFunction/main",
+            "command": "${workspaceFolder}/ArrayExpander/main",
             "dependsOn":[
                 "build"
             ],
