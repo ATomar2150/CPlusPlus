@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/ModeFunction/main.cpp",
+                "${workspaceFolder}/MedianFunction/main.cpp",
                 "-o",
-                "ModeFunction/main"
+                "MedianFunction/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/ModeFunction/main",
+            "command": "${workspaceFolder}/MedianFunction/main",
             "dependsOn":[
                 "build"
             ],

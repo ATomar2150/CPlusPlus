@@ -55,7 +55,7 @@ int mode;
         }
     
     }
-if(mode == 0)
+if(maxFrequency == 1)
 {
     mode = -1;
 }
