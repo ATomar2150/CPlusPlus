@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/TestScores2/main.cpp",
+                "${workspaceFolder}/ModeFunction/main.cpp",
                 "-o",
-                "TestScores2/main"
+                "ModeFunction/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/TestScores2/main",
+            "command": "${workspaceFolder}/ModeFunction/main",
             "dependsOn":[
                 "build"
             ],
