@@ -10,7 +10,7 @@ int main()
     do
     {
         swap = false;
-            for (int i = 0; i < SIZE; i++ )
+            for (int i = 0; i < SIZE-1; i++ )
             {
                 cout<<endl;
                 cout<<"Index at (i = "<<i<<") with value : "<<number[i]<<endl;
