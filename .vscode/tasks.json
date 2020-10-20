@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/BubbleSort/main.cpp",
+                "${workspaceFolder}/LibraryFunctionsC_Strings/main.cpp",
                 "-o",
-                "BubbleSort/main"
+                "LibraryFunctionsC_Strings/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/BubbleSort/main",
+            "command": "${workspaceFolder}/LibraryFunctionsC_Strings/main",
             "dependsOn":[
                 "build"
             ],
