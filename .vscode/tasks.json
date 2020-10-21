@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/StringClassDollarFormat/main.cpp",
+                "${workspaceFolder}/BackwardString/main.cpp",
                 "-o",
-                "StringClassDollarFormat/main"
+                "BackwardString/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/StringClassDollarFormat/main",
+            "command": "${workspaceFolder}/BackwardString/main",
             "dependsOn":[
                 "build"
             ],
