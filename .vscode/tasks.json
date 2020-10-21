@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/BackwardString/main.cpp",
+                "${workspaceFolder}/WordCounter/main.cpp",
                 "-o",
-                "BackwardString/main"
+                "WordCounter/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/BackwardString/main",
+            "command": "${workspaceFolder}/WordCounter/main",
             "dependsOn":[
                 "build"
             ],
