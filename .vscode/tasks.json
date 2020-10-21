@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/LibraryFunctionsC_Strings/main.cpp",
+                "${workspaceFolder}/StringClassDollarFormat/main.cpp",
                 "-o",
-                "LibraryFunctionsC_Strings/main"
+                "StringClassDollarFormat/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/LibraryFunctionsC_Strings/main",
+            "command": "${workspaceFolder}/StringClassDollarFormat/main",
             "dependsOn":[
                 "build"
             ],
