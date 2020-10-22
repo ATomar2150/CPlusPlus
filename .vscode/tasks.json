@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/WordCounter/main.cpp",
+                "${workspaceFolder}/AverageNumberOfLetters/main.cpp",
                 "-o",
-                "WordCounter/main"
+                "AverageNumberOfLetters/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/WordCounter/main",
+            "command": "${workspaceFolder}/AverageNumberOfLetters/main",
             "dependsOn":[
                 "build"
             ],
