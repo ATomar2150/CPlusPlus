@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/AverageNumberOfLetters/main.cpp",
+                "${workspaceFolder}/SentenceCapitalizer/main.cpp",
                 "-o",
-                "AverageNumberOfLetters/main"
+                "SentenceCapitalizer/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/AverageNumberOfLetters/main",
+            "command": "${workspaceFolder}/SentenceCapitalizer/main",
             "dependsOn":[
                 "build"
             ],
