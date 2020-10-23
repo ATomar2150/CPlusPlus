@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/SentenceCapitalizer/main.cpp",
+                "${workspaceFolder}/VowelsAndConsonants/main.cpp",
                 "-o",
-                "SentenceCapitalizer/main"
+                "VowelsAndConsonants/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/SentenceCapitalizer/main",
+            "command": "${workspaceFolder}/VowelsAndConsonants/main",
             "dependsOn":[
                 "build"
             ],
