@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/SumOfDigitsInAString/main.cpp",
+                "${workspaceFolder}/MostFrequentCharacter/main.cpp",
                 "-o",
-                "SumOfDigitsInAString/main"
+                "MostFrequentCharacter/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/SumOfDigitsInAString/main",
+            "command": "${workspaceFolder}/MostFrequentCharacter/main",
             "dependsOn":[
                 "build"
             ],
