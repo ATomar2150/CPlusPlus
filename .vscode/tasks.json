@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/VowelsAndConsonants/main.cpp",
+                "${workspaceFolder}/SumOfDigitsInAString/main.cpp",
                 "-o",
-                "VowelsAndConsonants/main"
+                "SumOfDigitsInAString/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/VowelsAndConsonants/main",
+            "command": "${workspaceFolder}/SumOfDigitsInAString/main",
             "dependsOn":[
                 "build"
             ],
