@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/MostFrequentCharacter/main.cpp",
+                "${workspaceFolder}/StructCircle/main.cpp",
                 "-o",
-                "MostFrequentCharacter/main"
+                "StructCircle/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/MostFrequentCharacter/main",
+            "command": "${workspaceFolder}/StructCircle/main",
             "dependsOn":[
                 "build"
             ],
