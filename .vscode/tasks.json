@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/ArrayOfStructures/main.cpp",
+                "${workspaceFolder}/NestedStructures/main.cpp",
                 "-o",
-                "ArrayOfStructures/main"
+                "NestedStructures/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/ArrayOfStructures/main",
+            "command": "${workspaceFolder}/NestedStructures/main",
             "dependsOn":[
                 "build"
             ],
