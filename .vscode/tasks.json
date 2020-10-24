@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/StructQuestion/main.cpp",
+                "${workspaceFolder}/StructAsFunctionArgument/main.cpp",
                 "-o",
-                "StructQuestion/main"
+                "StructAsFunctionArgument/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/StructQuestion/main",
+            "command": "${workspaceFolder}/StructAsFunctionArgument/main",
             "dependsOn":[
                 "build"
             ],
