@@ -29,6 +29,8 @@ int main()
     rd.humidity = 32;
     ts.fahrenheit = 32;
     ts.centigrade = 0;
+    rd.temprature.fahrenheit = 11;
+    rd.temprature.centigrade = 12;
     showReading(rd);
     findReading(rd);
     rd = getReading();
@@ -46,6 +48,7 @@ void showReading(Reading rd)
 //It should use a Reading structure variable
 void findReading(Reading &rd)
 {
+    cout<<"It should use a Reading structure variable"<<endl;
     cout<<"Enter wind speed "<<endl;
     cin >> rd.windSpeed;
     cout<<"Enter humidity "<<endl;
@@ -60,6 +63,7 @@ void findReading(Reading &rd)
 Reading getReading()
 {   
     Reading gr;
+    cout<<"Return a structure"<<endl;
     cout<<"Enter wind speed "<<endl;
     cin >> gr.windSpeed;
     cout<<"Enter humidity "<<endl;
@@ -74,6 +78,7 @@ Reading getReading()
 //using Reading structure pointer variable as its parameter.
 void recordReading(Reading* ptr)
 {
+    cout<<"Using Reading structure pointer variable as its parameter."<<endl;
     cout<<"Enter wind speed "<<endl;
     cin >> ptr->windSpeed;
     cout<<"Enter humidity "<<endl;

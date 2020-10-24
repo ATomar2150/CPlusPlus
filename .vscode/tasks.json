@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/enumeratedDataType/main.cpp",
+                "${workspaceFolder}/practiceStruct/main.cpp",
                 "-o",
-                "enumeratedDataType/main"
+                "practiceStruct/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/enumeratedDataType/main",
+            "command": "${workspaceFolder}/practiceStruct/main",
             "dependsOn":[
                 "build"
             ],
