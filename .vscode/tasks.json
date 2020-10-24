@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/StructCircle/main.cpp",
+                "${workspaceFolder}/ArrayOfStructures/main.cpp",
                 "-o",
-                "StructCircle/main"
+                "ArrayOfStructures/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/StructCircle/main",
+            "command": "${workspaceFolder}/ArrayOfStructures/main",
             "dependsOn":[
                 "build"
             ],
