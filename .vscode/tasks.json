@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/MonthlyBudget/main.cpp",
+                "${workspaceFolder}/KitchenClassProgram/main.cpp",
                 "-o",
-                "MonthlyBudget/main"
+                "KitchenClassProgram/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/MonthlyBudget/main",
+            "command": "${workspaceFolder}/KitchenClassProgram/main",
             "dependsOn":[
                 "build"
             ],
