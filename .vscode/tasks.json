@@ -9,16 +9,17 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/KitchenClassProgram/main.cpp",
+                "${workspaceFolder}/RectangleWithDifferentFiles/main.cpp",
+                "${workspaceFolder}/RectangleWithDifferentFiles/Rectangle.cpp",
                 "-o",
-                "KitchenClassProgram/main"
+                "RectangleWithDifferentFiles/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/KitchenClassProgram/main",
+            "command": "${workspaceFolder}/RectangleWithDifferentFiles/main",
             "dependsOn":[
                 "build"
             ],
