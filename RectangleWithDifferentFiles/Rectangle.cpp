@@ -3,6 +3,14 @@
 #include <cstdlib>
 using namespace std;
 
+//CONSTRUCTOR
+Rectangle::Rectangle(double w, double l)
+{
+    cout<<"Welcome to the constructor"<<endl;
+    width = w;
+    length = l;
+}
+
 void Rectangle::setLength(double l)
 {
     //putting validation

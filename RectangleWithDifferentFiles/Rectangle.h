@@ -7,6 +7,8 @@ class Rectangle
             double length;
             double width;
     public:
+            Rectangle(double,double);
+            
             void setLength(double);
             void setWidth(double);
 
@@ -25,6 +27,7 @@ class Rectangle
                 //inline function
                 return length * width;
             };
+            
 };
 
 #endif

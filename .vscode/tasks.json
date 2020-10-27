@@ -9,17 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/RectangleWithDifferentFiles/main.cpp",
-                "${workspaceFolder}/RectangleWithDifferentFiles/Rectangle.cpp",
+                "${workspaceFolder}/Destructors/main.cpp",
                 "-o",
-                "RectangleWithDifferentFiles/main"
+                "Destructors/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/RectangleWithDifferentFiles/main",
+            "command": "${workspaceFolder}/Destructors/main",
             "dependsOn":[
                 "build"
             ],
