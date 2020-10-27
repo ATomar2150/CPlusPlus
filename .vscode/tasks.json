@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/Destructors/main.cpp",
+                "${workspaceFolder}/OverloadingConstructors/main.cpp",
                 "-o",
-                "Destructors/main"
+                "OverloadingConstructors/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/Destructors/main",
+            "command": "${workspaceFolder}/OverloadingConstructors/main",
             "dependsOn":[
                 "build"
             ],
