@@ -9,17 +9,17 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/OOPS_CaseStudy/main.cpp",
-                "${workspaceFolder}/OOPS_CaseStudy/Account.cpp",
+                "${workspaceFolder}/Date/main.cpp",
+                "${workspaceFolder}/Date/Date.cpp",
                 "-o",
-                "OOPS_CaseStudy/main"
+                "Date/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/OOPS_CaseStudy/main",
+            "command": "${workspaceFolder}/Date/main",
             "dependsOn":[
                 "build"
             ],
