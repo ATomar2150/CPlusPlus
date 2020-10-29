@@ -9,17 +9,17 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/Date/main.cpp",
-                "${workspaceFolder}/Date/Date.cpp",
+                "${workspaceFolder}/CarClass/main.cpp",
+                "${workspaceFolder}/CarClass/Car.cpp",
                 "-o",
-                "Date/main"
+                "CarClass/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/Date/main",
+            "command": "${workspaceFolder}/CarClass/main",
             "dependsOn":[
                 "build"
             ],
