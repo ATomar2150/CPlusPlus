@@ -9,17 +9,17 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/InventoryClass/main.cpp",
-                "${workspaceFolder}/InventoryClass/Inventory.cpp",
+                "${workspaceFolder}/WidgetFactory/main.cpp",
+                "${workspaceFolder}/WidgetFactory/Widget.cpp",
                 "-o",
-                "InventoryClass/main"
+                "WidgetFactory/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/InventoryClass/main",
+            "command": "${workspaceFolder}/WidgetFactory/main",
             "dependsOn":[
                 "build"
             ],
