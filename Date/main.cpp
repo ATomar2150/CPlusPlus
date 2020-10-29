@@ -24,48 +24,50 @@ int main()
     cout<<style.getDate()<<"/"<<style.getMonth()<<"/"<<style.getYear()<<endl;
 
     cout<<"SECOND FORMAT: ";
+
+    
     switch(Month)
     {
         case 1:
-                cout<<"January/"<<style.getDate()<<"/"<<style.getYear()<<endl;
+                cout<<"January "<<style.getDate()<<"/"<<style.getYear()<<endl;
                 break;
         case 2:
-                cout<<"Febuary/"<<style.getDate()<<"/"<<style.getYear()<<endl;
+                cout<<"Febuary "<<style.getDate()<<"/"<<style.getYear()<<endl;
                 break;
         case 3:
-                cout<<"March/"<<style.getDate()<<"/"<<style.getYear()<<endl;
+                cout<<"March "<<style.getDate()<<"/"<<style.getYear()<<endl;
                 break;
         case 4:
-                cout<<"April/"<<style.getDate()<<"/"<<style.getYear()<<endl;
+                cout<<"April "<<style.getDate()<<","<<style.getYear()<<endl;
                 break;
         case 5:
-                cout<<"May/"<<style.getDate()<<"/"<<style.getYear()<<endl;
+                cout<<"May "<<style.getDate()<<","<<style.getYear()<<endl;
                 break;
         case 6:
-                cout<<"June/"<<style.getDate()<<"/"<<style.getYear()<<endl;
+                cout<<"June "<<style.getDate()<<","<<style.getYear()<<endl;
                 break;
         case 7:
-                cout<<"July/"<<style.getDate()<<"/"<<style.getYear()<<endl;
+                cout<<"July "<<style.getDate()<<","<<style.getYear()<<endl;
                 break;
         case 8:
-                cout<<"August/"<<style.getDate()<<"/"<<style.getYear()<<endl;
+                cout<<"August "<<style.getDate()<<","<<style.getYear()<<endl;
                 break;
         case 9:
-                cout<<"September/"<<style.getDate()<<"/"<<style.getYear()<<endl;
+                cout<<"September "<<style.getDate()<<","<<style.getYear()<<endl;
                 break;
         case 10:
-                cout<<"October/"<<style.getDate()<<"/"<<style.getYear()<<endl;
+                cout<<"October "<<style.getDate()<<","<<style.getYear()<<endl;
                 break;
         case 11:
-                cout<<"November/"<<style.getDate()<<"/"<<style.getYear()<<endl;
+                cout<<"November "<<style.getDate()<<","<<style.getYear()<<endl;
                 break;
         case 12:
-                cout<<"December/"<<style.getDate()<<"/"<<style.getYear()<<endl;
+                cout<<"December "<<style.getDate()<<","<<style.getYear()<<endl;
                 break;
                 
     }
 
-    cout<<"ThIRd FORMAT: ";
+    cout<<"Third FORMAT: ";
     switch(Month)
     {
         case 1:
