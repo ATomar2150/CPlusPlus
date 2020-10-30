@@ -9,17 +9,17 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/MortgagePayment/main.cpp",
-                "${workspaceFolder}/MortgagePayment/Mortgage.cpp",
+                "${workspaceFolder}/Budget/main.cpp",
+                "${workspaceFolder}/Budget/Budget.cpp",
                 "-o",
-                "MortgagePayment/main"
+                "Budget/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/MortgagePayment/main",
+            "command": "${workspaceFolder}/Budget/main",
             "dependsOn":[
                 "build"
             ],
