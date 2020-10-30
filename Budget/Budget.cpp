@@ -2,7 +2,7 @@
 
     void Budget::addBudget(double b)
     {
-        divisionBudget += b;
+        divisionBudget = b;
         corpBudget += b;
     }
 
@@ -16,4 +16,5 @@
         return corpBudget;
     }
 
+    //static member variable
     double Budget::corpBudget = 0;
