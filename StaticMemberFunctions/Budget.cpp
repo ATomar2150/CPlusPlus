@@ -11,6 +11,7 @@ double Budget::getCorpBudget() const
     return corpBudget;
 }
 
+//static membet function initiation
 double Budget::corpBudget = 0;
 
 void Budget::mainOffice(double moffice)
