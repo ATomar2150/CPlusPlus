@@ -9,17 +9,18 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/StaticMemberFunctions/main.cpp",
-                "${workspaceFolder}/StaticMemberFunctions/Budget.cpp",
+                "${workspaceFolder}/FriendsOfClasses/main.cpp",
+                "${workspaceFolder}/FriendsOfClasses/Budget.cpp",
+                "${workspaceFolder}/FriendsOfClasses/Auxil.cpp",
                 "-o",
-                "StaticMemberFunctions/main"
+                "FriendsOfClasses/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/StaticMemberFunctions/main",
+            "command": "${workspaceFolder}/FriendsOfClasses/main",
             "dependsOn":[
                 "build"
             ],
