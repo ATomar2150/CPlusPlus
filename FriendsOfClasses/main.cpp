@@ -21,28 +21,29 @@ int main()
     {
         double budgetAmount;
 
-        cout<<"Enter the budget for the division.\n";
+        cout<<"Enter the budget for the main division:\n";
         cin >> budgetAmount;
         divisions[i].addBudget(budgetAmount);
 
-        cout<<"Enter the budget for auxiliary division.\n";
+        cout<<"Enter the budget for auxiliary division:\n";
         cin >> budgetAmount;
         auxOffices[i].addBudget(budgetAmount, divisions[i]);
     }
-
+    cout<<"__________________________________________________________"<<endl;
+    cout<<"__________________________________________________________"<<endl;
+    cout<<"__________________________________________________________"<<endl;
     //Display the budget requests and corporate requests
     for(int i = 0; i < NUM_DIVISION; i++)
     {
 
-        cout<<"Budget for the division.\n";
-
+        cout<<"Displaying budget for MAIN DIVISION:\n";
         cout<<divisions[i].getDivisionBudget()<<endl;
 
-        cout<<"Budget for auxiliary division.\n";
+        cout<<"Displaying budget for AUXILLIARY DIVISION:\n";
         cout<<auxOffices[i].getDivisionBudget()<<endl;
     }
 
-    cout<<"Total Budget for Corporate\n";
+    cout<<"Total Budget for Corporate:\n";
     cout<<divisions[0].getCorpBudget()<<endl;
 
     return 0;

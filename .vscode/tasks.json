@@ -9,18 +9,17 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/FriendsOfClasses/main.cpp",
-                "${workspaceFolder}/FriendsOfClasses/Budget.cpp",
-                "${workspaceFolder}/FriendsOfClasses/Auxil.cpp",
+                "${workspaceFolder}/MathOperator/main.cpp",
+                "${workspaceFolder}/MathOperator/FeetInches.cpp",
                 "-o",
-                "FriendsOfClasses/main"
+                "MathOperator/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/FriendsOfClasses/main",
+            "command": "${workspaceFolder}/MathOperator/main",
             "dependsOn":[
                 "build"
             ],
