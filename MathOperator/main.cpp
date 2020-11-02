@@ -5,33 +5,33 @@ using namespace std;
 
 int main()
 {
-    // int feet, inches;
+    int feet, inches;
 
-    // FeetInches first, second, third;
+    FeetInches first, second, third;
 
-    // cout<<"Get the distance in feet and inches for addition operator.\n";
-    // cin >> feet >> inches;
+    cout<<"Get the distance in feet and inches for addition operator.\n";
+    cin >> feet >> inches;
 
-    // first.setFeet(feet);
-    // first.setInches(inches);
+    first.setFeet(feet);
+    first.setInches(inches);
 
-    // cout<<"Get the distance in feet and inches for subtraction operator.\n";
-    // cin >> feet >> inches;
+    cout<<"Get the distance in feet and inches for subtraction operator.\n";
+    cin >> feet >> inches;
 
-    // second.setFeet(feet);
-    // second.setInches(inches);
+    second.setFeet(feet);
+    second.setInches(inches);
 
-    // third = first + second;
+    third = first + second;
 
-    // cout<<"first + second = ";
-    // cout<<third.getFeet()<< "feet, ";
-    // cout<<third.getInches()<<" inches.\n";
+    cout<<"first + second = ";
+    cout<<third.getFeet()<< "feet, ";
+    cout<<third.getInches()<<" inches.\n";
 
-    // third = first - second;
+    third = first - second;
 
-    // cout<<"first - second = ";
-    // cout<<third.getFeet()<< "feet, ";
-    // cout<<third.getInches()<<" inches.\n";
+    cout<<"first - second = ";
+    cout<<third.getFeet()<< "feet, ";
+    cout<<third.getInches()<<" inches.\n";
 
     FeetInches firstIteration;
     FeetInches secondIteration(1, 5);
@@ -59,7 +59,23 @@ int main()
         cout<<"second: "<<secondIteration.getFeet() <<" feet, ";
         cout<<secondIteration.getInches() << " inches. "<<endl;
          cout<<"__________________________________________\n";
+
+        if(first == second)
+        {
+            cout<<"first is equal to second"<<endl;
+        }
+        if(first > second)
+        {
+            cout<<"first is greater than second"<<endl;
+        }
+        if(first < second)
+        {
+            cout<<"first is less than second"<<endl;
+        }
+
     }
+
+   
 
 
     return 0;

@@ -19,10 +19,13 @@ class FeetInches
             int getInches() const;
 
             //Operator overload Function
+            FeetInches operator++ (); //prefix
+            FeetInches operator++ (int); //postfix
             FeetInches operator+ (const FeetInches &);
             FeetInches operator- (const FeetInches &);
-            FeetInches operator++ ();
-            FeetInches operator++ (int);
+            bool operator< (const FeetInches &);
+            bool operator> (const FeetInches &);
+            bool operator== (const FeetInches &);
 
 };
 
