@@ -9,17 +9,17 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/MathOperator/main.cpp",
-                "${workspaceFolder}/MathOperator/FeetInches.cpp",
+                "${workspaceFolder}/ArrayOverloading/main.cpp",
+                "${workspaceFolder}/ArrayOverloading/IntArray.cpp",
                 "-o",
-                "MathOperator/main"
+                "ArrayOverloading/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/MathOperator/main",
+            "command": "${workspaceFolder}/ArrayOverloading/main",
             "dependsOn":[
                 "build"
             ],
