@@ -5,18 +5,22 @@ using namespace std;
 
 int main()
 {
-    int feet, inches;
+    int feet, inches,f,s;
 
     FeetInches first, second, third;
 
-    cout<<"Get the distance in feet and inches for addition operator.\n";
-    cin >> feet >> inches;
+    cout<<"Get the distance in feet for addition operator.\n";
+    cin >> feet;
+    cout<<"Get the distance in inches for addition operator.\n";
+    cin >> inches;
 
     first.setFeet(feet);
     first.setInches(inches);
 
-    cout<<"Get the distance in feet and inches for subtraction operator.\n";
-    cin >> feet >> inches;
+    cout<<"Get the distance in feet for addition operator.\n";
+    cin >> feet;
+    cout<<"Get the distance in inches for addition operator.\n";
+    cin >> inches;
 
     second.setFeet(feet);
     second.setInches(inches);
@@ -72,11 +76,20 @@ int main()
         {
             cout<<"first is less than second"<<endl;
         }
+        cout<<"____________________________"<<endl;
+       
 
     }
 
-   
-
+     //For cout and cin operators.
+        FeetInches distance;
+        cout<<"Get the fourth operator.\n";
+        cin >> f;
+        distance.setFeet(f);
+        cout<<"Get the fifth operator.\n";
+        cin >> s;
+        distance.setInches(s);
+        cout <<"The values are: "<<f<<" feet and "<<s<<" inches.\n"<<endl;
 
     return 0;
 }

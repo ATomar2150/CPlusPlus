@@ -1,5 +1,8 @@
 #include "FeetInches.h"
 #include <cstdlib>
+#include <iostream>
+
+using namespace std;
 
 void FeetInches::simplify()
 {
@@ -155,4 +158,18 @@ bool FeetInches::operator == (const FeetInches &right)
     return status;
 };
 
+
+istream &operator >> (istream &strm, FeetInches &obj)
+{
+    cout<<"FEET: "<<endl;
+    strm >> obj.feet;
+    cout<<"INCHES: " <<endl;
+    strm >> obj.inches;
+    return strm; 
+}
+ostream &operator << (ostream &strm, const FeetInches &obj)
+{
+    strm << obj.feet <<" feet "<<obj.inches<<" inches. \n";
+    return strm; 
+}
 
