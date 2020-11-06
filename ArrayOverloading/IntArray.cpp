@@ -44,3 +44,4 @@ int &IntArray::operator[](const int &sub)
     }
     return aptr[sub];
 }
+

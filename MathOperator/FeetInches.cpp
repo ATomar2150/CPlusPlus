@@ -4,6 +4,8 @@
 
 using namespace std;
 
+
+//simplyfy function
 void FeetInches::simplify()
 {
     if(inches >= 12)
@@ -20,12 +22,14 @@ void FeetInches::simplify()
     
 }
 
+//default constructor
 FeetInches::FeetInches()
 {
     feet = 0;
     inches = 0;
 }
 
+//parameterized constructor
 FeetInches::FeetInches(int f, int i)
 {
     feet = f;
@@ -55,6 +59,7 @@ int FeetInches::getInches() const
     return inches;
 };
 
+//additional operator
 FeetInches FeetInches::operator+ (const FeetInches &right)
 {
     FeetInches temp;
@@ -67,6 +72,7 @@ FeetInches FeetInches::operator+ (const FeetInches &right)
     return temp;
 }
 
+//subtraction operators
 FeetInches FeetInches::operator- (const FeetInches &right)
 {
     FeetInches temp;
@@ -109,6 +115,7 @@ FeetInches FeetInches::operator++ (int)
     return temp;
 }
 
+//less then operator
 bool FeetInches::operator < (const FeetInches &right)
 {
     bool status;
@@ -127,6 +134,8 @@ bool FeetInches::operator < (const FeetInches &right)
     
     return status;
 };
+
+// greator than operator
 bool FeetInches::operator > (const FeetInches &right)
 {
     bool status;
@@ -144,6 +153,8 @@ bool FeetInches::operator > (const FeetInches &right)
     }
     return status;
 };
+
+//equal to operator
 bool FeetInches::operator == (const FeetInches &right)
 {
      bool status;
@@ -158,7 +169,7 @@ bool FeetInches::operator == (const FeetInches &right)
     return status;
 };
 
-
+// stream extraction operator like Cin
 istream &operator >> (istream &strm, FeetInches &obj)
 {
     cout<<"FEET: "<<endl;
@@ -167,6 +178,8 @@ istream &operator >> (istream &strm, FeetInches &obj)
     strm >> obj.inches;
     return strm; 
 }
+
+//stream insertion operator like Cout
 ostream &operator << (ostream &strm, const FeetInches &obj)
 {
     strm << obj.feet <<" feet "<<obj.inches<<" inches. \n";

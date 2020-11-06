@@ -9,17 +9,19 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/ArrayOverloading/main.cpp",
-                "${workspaceFolder}/ArrayOverloading/IntArray.cpp",
+                "${workspaceFolder}/Aggregation/main.cpp",
+                "${workspaceFolder}/Aggregation/Course.cpp",
+                "${workspaceFolder}/Aggregation/Instructor.cpp",
+                "${workspaceFolder}/Aggregation/Textbook.cpp",
                 "-o",
-                "ArrayOverloading/main"
+                "Aggregation/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/ArrayOverloading/main",
+            "command": "${workspaceFolder}/Aggregation/main",
             "dependsOn":[
                 "build"
             ],

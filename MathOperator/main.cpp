@@ -25,12 +25,14 @@ int main()
     second.setFeet(feet);
     second.setInches(inches);
 
+    //addition
     third = first + second;
 
     cout<<"first + second = ";
     cout<<third.getFeet()<< "feet, ";
     cout<<third.getInches()<<" inches.\n";
 
+    //subtraction
     third = first - second;
 
     cout<<"first - second = ";
@@ -40,6 +42,7 @@ int main()
     FeetInches firstIteration;
     FeetInches secondIteration(1, 5);
 
+    //prefix
     cout<<"Demonstrationg the prefix ++ opeators.\n";
     for(int i = 0; i < 12; i++)
     {   
@@ -52,6 +55,7 @@ int main()
          cout<<"__________________________________________\n";
     }
 
+    //postfix
     cout<<"===============================================\n"<<endl;
     cout<<"Demonstrationg the postfix ++ opeators.\n";
     for(int i = 0; i < 12; i++)
@@ -76,12 +80,12 @@ int main()
         {
             cout<<"first is less than second"<<endl;
         }
-        cout<<"____________________________"<<endl;
+        cout<<"__________________________________________"<<endl;
        
 
     }
 
-     //For cout and cin operators.
+     //For cout(insertion) and cin(extraction) operators.
         FeetInches distance;
         cout<<"Get the fourth operator.\n";
         cin >> f;
@@ -90,6 +94,7 @@ int main()
         cin >> s;
         distance.setInches(s);
         cout <<"The values are: "<<f<<" feet and "<<s<<" inches.\n"<<endl;
+
 
     return 0;
 }

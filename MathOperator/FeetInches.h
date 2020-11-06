@@ -27,7 +27,7 @@ class FeetInches
             int getFeet() const;
             int getInches() const;
 
-            //Operator overload Function
+            //Operator overload Function calls
             FeetInches operator++ (); //prefix
             FeetInches operator++ (int); //postfix
 
