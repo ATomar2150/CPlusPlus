@@ -9,18 +9,18 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/Inheritance/main.cpp",
-                "${workspaceFolder}/Inheritance/FinalExam.cpp",
-                "${workspaceFolder}/Inheritance/GradedActivity.cpp",
+                "${workspaceFolder}/ProtectedMemberAndClassAccess/main.cpp",
+                "${workspaceFolder}/ProtectedMemberAndClassAccess/FinalExam.cpp",
+                "${workspaceFolder}/ProtectedMemberAndClassAccess/GradedActivity.cpp",
                 "-o",
-                "Inheritance/main"
+                "ProtectedMemberAndClassAccess/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/Inheritance/main",
+            "command": "${workspaceFolder}/ProtectedMemberAndClassAccess/main",
             "dependsOn":[
                 "build"
             ],
