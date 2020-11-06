@@ -9,16 +9,18 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/Aggregation/main.cpp",
+                "${workspaceFolder}/Inheritance/main.cpp",
+                "${workspaceFolder}/Inheritance/FinalExam.cpp",
+                "${workspaceFolder}/Inheritance/GradedActivity.cpp",
                 "-o",
-                "Aggregation/main"
+                "Inheritance/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/Aggregation/main",
+            "command": "${workspaceFolder}/Inheritance/main",
             "dependsOn":[
                 "build"
             ],
