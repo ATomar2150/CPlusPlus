@@ -9,18 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/ProtectedMemberAndClassAccess/main.cpp",
-                "${workspaceFolder}/ProtectedMemberAndClassAccess/FinalExam.cpp",
-                "${workspaceFolder}/ProtectedMemberAndClassAccess/GradedActivity.cpp",
+                "${workspaceFolder}/AutomobileClass/main.cpp",
                 "-o",
-                "ProtectedMemberAndClassAccess/main"
+                "AutomobileClass/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/ProtectedMemberAndClassAccess/main",
+            "command": "${workspaceFolder}/AutomobileClass/main",
             "dependsOn":[
                 "build"
             ],
