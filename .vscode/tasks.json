@@ -10,9 +10,6 @@
             "args": [
                 "-g",
                 "${workspaceFolder}/Aggregation/main.cpp",
-                "${workspaceFolder}/Aggregation/Course.cpp",
-                "${workspaceFolder}/Aggregation/Instructor.cpp",
-                "${workspaceFolder}/Aggregation/Textbook.cpp",
                 "-o",
                 "Aggregation/main"
             ],

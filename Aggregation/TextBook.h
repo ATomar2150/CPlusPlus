@@ -1,5 +1,5 @@
-#ifndef TEXTBOOK_H
-#define TEXTBOOK_H
+#ifndef TEXTBOOK
+#define TEXTBOOK
 #include <iostream>
 #include <string>
 
@@ -12,20 +12,28 @@ class TextBook
             string author;
             string publisher;
     public:
-            TextBook();
-            TextBook(string, string, string);
+            TextBook()
+            {
+                set("","","");
+            };
+            TextBook(string textTitle, string auth, string pub)
+            {
+                set(textTitle, auth, pub);
+            };
 
-            void setTitle(string);
-            void setAuthor(string);
-            void setPublisher(string);
+            void set(string textTitle, string auth, string pub)
+            {
+                title = textTitle;
+                author = auth;
+                publisher = pub;
+            };
 
-            string getTitle() const;
-            string getAuthor() const;
-            string getPublisher() const;
-
-            void set(string, string, string);
-
-            void print() const;
+            void print() const
+            {
+                cout<<"Title: "<<title<<endl;
+                cout<<"Author: "<<author<<endl;
+                cout<<"Publisher: "<<publisher<<endl;
+            };
 
 };
 #endif

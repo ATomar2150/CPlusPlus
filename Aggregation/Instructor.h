@@ -1,7 +1,7 @@
 //Aggregation occurs when a class contans an instance of another class.
 
-#ifndef INSTRUCTOR_H
-#define INSTRUCTOR_H
+#ifndef INSTRUCTOR
+#define INSTRUCTOR
 
 #include <iostream>
 #include <string>
@@ -16,21 +16,31 @@ class Instructor
             string officeNumber;
     public:
             //default constructor
-            Instructor();
+            Instructor()
+            {
+                set("","","");
+            };
 
             //constructor
-            Instructor(string, string, string);
+            Instructor(string lname, string fname, string office)
+            {
+                set(lname, fname, office);
+            };
 
-            void setLastName(string);
-            void setFirstName(string);
-            void setOfficeNumber(string);
-
-            string getLastName() const;
-            string getFirstName() const;
-            string getOfficeNumber() const;
-
-            void set(string, string, string);
-
-            void print() const;
+            
+            void set(string lname, string fname, string office)
+            {
+                    lastName = lname;
+                    firstName = fname;
+                    officeNumber = office;
+            };
+            
+            //print function
+            void print() const
+            {
+                cout<<"Last Name: "<<lastName<<endl;
+                cout<<"First Name: "<<firstName<<endl;
+                cout<<"Office Number: "<<officeNumber<<endl;
+            };
 };
  #endif
