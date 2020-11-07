@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/AutomobileClass/main.cpp",
+                "${workspaceFolder}/RedefningBaseClassFunction/main.cpp",
                 "-o",
-                "AutomobileClass/main"
+                "RedefningBaseClassFunction/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/AutomobileClass/main",
+            "command": "${workspaceFolder}/RedefningBaseClassFunction/main",
             "dependsOn":[
                 "build"
             ],
