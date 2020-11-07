@@ -8,13 +8,13 @@ class PassFailActivity : public GradedActivity
     protected:
             double minPassingScore;
     public:
-            //default constructor
+            //Default constructor
              PassFailActivity() : GradedActivity()
             {
                 minPassingScore = 0.0;
             }
 
-            //constructor
+            //Constructor
              PassFailActivity(double mps) : GradedActivity()
             {
                 minPassingScore = mps;
@@ -25,12 +25,13 @@ class PassFailActivity : public GradedActivity
                 minPassingScore = mps;
             }
 
+            //Accessor
             double getMinPassingScore() const
             {
                 return minPassingScore;
             }
 
-            char getLetterGrade() const;
+            virtual char getLetterGrade() const;
 
 };
 #endif

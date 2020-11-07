@@ -12,6 +12,7 @@
                 "${workspaceFolder}/ClassHierarchies/main.cpp",
                 "${workspaceFolder}/ClassHierarchies/PassFailActivity.cpp",
                 "${workspaceFolder}/ClassHierarchies/PassFailExam.cpp",
+                "${workspaceFolder}/ClassHierarchies/GradedActivity.cpp",
                 "-o",
                 "ClassHierarchies/main"
             ],
