@@ -9,16 +9,18 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/RedefningBaseClassFunction/main.cpp",
+                "${workspaceFolder}/ClassHierarchies/main.cpp",
+                "${workspaceFolder}/ClassHierarchies/PassFailActivity.cpp",
+                "${workspaceFolder}/ClassHierarchies/PassFailExam.cpp",
                 "-o",
-                "RedefningBaseClassFunction/main"
+                "ClassHierarchies/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/RedefningBaseClassFunction/main",
+            "command": "${workspaceFolder}/ClassHierarchies/main",
             "dependsOn":[
                 "build"
             ],
