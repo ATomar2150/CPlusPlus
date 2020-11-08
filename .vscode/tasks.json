@@ -9,19 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/ClassHierarchies/main.cpp",
-                "${workspaceFolder}/ClassHierarchies/PassFailActivity.cpp",
-                "${workspaceFolder}/ClassHierarchies/PassFailExam.cpp",
-                "${workspaceFolder}/ClassHierarchies/GradedActivity.cpp",
+                "${workspaceFolder}/VitualDestructor/main.cpp",
                 "-o",
-                "ClassHierarchies/main"
+                "VitualDestructor/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/ClassHierarchies/main",
+            "command": "${workspaceFolder}/VitualDestructor/main",
             "dependsOn":[
                 "build"
             ],
