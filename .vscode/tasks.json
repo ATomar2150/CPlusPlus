@@ -9,17 +9,17 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/AbstractBaseClassAndPureVirtualFunctions/main.cpp",
-                "${workspaceFolder}/AbstractBaseClassAndPureVirtualFunctions/CsStudent.cpp",
+                "${workspaceFolder}/MultipleInheritance/main.cpp",
+                "${workspaceFolder}/MultipleInheritance/DateTime.cpp",
                 "-o",
-                "AbstractBaseClassAndPureVirtualFunctions/main"
+                "MultipleInheritance/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/AbstractBaseClassAndPureVirtualFunctions/main",
+            "command": "${workspaceFolder}/MultipleInheritance/main",
             "dependsOn":[
                 "build"
             ],
