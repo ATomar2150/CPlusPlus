@@ -9,17 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/ExceptionHandlingRectanglClass/main.cpp",
-                "${workspaceFolder}/ExceptionHandlingRectanglClass/Rectangle.cpp",
+                "${workspaceFolder}/TemplateIntro/main.cpp",
                 "-o",
-                "ExceptionHandlingRectanglClass/main"
+                "TemplateIntro/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/ExceptionHandlingRectanglClass/main",
+            "command": "${workspaceFolder}/TemplateIntro/main",
             "dependsOn":[
                 "build"
             ],
