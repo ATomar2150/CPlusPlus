@@ -9,17 +9,17 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/MultipleInheritance/main.cpp",
-                "${workspaceFolder}/MultipleInheritance/DateTime.cpp",
+                "${workspaceFolder}/ExceptionHandlingRectanglClass/main.cpp",
+                "${workspaceFolder}/ExceptionHandlingRectanglClass/Rectangle.cpp",
                 "-o",
-                "MultipleInheritance/main"
+                "ExceptionHandlingRectanglClass/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/MultipleInheritance/main",
+            "command": "${workspaceFolder}/ExceptionHandlingRectanglClass/main",
             "dependsOn":[
                 "build"
             ],
