@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/TemplateIntro/main.cpp",
+                "${workspaceFolder}/TemplateExercise2/main.cpp",
                 "-o",
-                "TemplateIntro/main"
+                "TemplateExercise2/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/TemplateIntro/main",
+            "command": "${workspaceFolder}/TemplateExercise2/main",
             "dependsOn":[
                 "build"
             ],
