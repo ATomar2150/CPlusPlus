@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/TemplateExercise2/main.cpp",
+                "${workspaceFolder}/OverloaingWithFunctionTemplate/main.cpp",
                 "-o",
-                "TemplateExercise2/main"
+                "OverloaingWithFunctionTemplate/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/TemplateExercise2/main",
+            "command": "${workspaceFolder}/OverloaingWithFunctionTemplate/main",
             "dependsOn":[
                 "build"
             ],
