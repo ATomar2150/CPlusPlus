@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/ClassTemplateAndInheritance/main.cpp",
+                "${workspaceFolder}/ForEachAlgorithm/main.cpp",
                 "-o",
-                "ClassTemplateAndInheritance/main"
+                "ForEachAlgorithm/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/ClassTemplateAndInheritance/main",
+            "command": "${workspaceFolder}/ForEachAlgorithm/main",
             "dependsOn":[
                 "build"
             ],
