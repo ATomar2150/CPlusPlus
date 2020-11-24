@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/ForEachAlgorithm/main.cpp",
+                "${workspaceFolder}/AbdulBariRevision/main.cpp",
                 "-o",
-                "ForEachAlgorithm/main"
+                "AbdulBariRevision/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/ForEachAlgorithm/main",
+            "command": "${workspaceFolder}/AbdulBariRevision/main",
             "dependsOn":[
                 "build"
             ],

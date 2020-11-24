@@ -17,17 +17,16 @@ T sum(T val1, T val2, T val3)
 
 int main()
 {
-
     double num1, num2, num3;
     cout<<"Enter two values: ";
     cin >> num1 >> num2;
 
-    cout<<"Their sum is: "<<sum(num1, num2)<<endl;
+    cout<<"Their sum is: "<< sum(num1, num2) <<endl;
 
     cout<<"Enter three values: ";
     cin >> num1 >> num2 >> num3;
 
-    cout<<"Their sum is: "<<sum(num1, num2, num3)<<endl;
+    cout<<"Their sum is: "<< sum(num1, num2, num3) <<endl;
 
     return 0;
 }
