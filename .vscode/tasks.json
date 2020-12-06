@@ -9,16 +9,16 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/AbdulBariRevision/main.cpp",
+                "${workspaceFolder}/StaleData/main.cpp",
                 "-o",
-                "AbdulBariRevision/main"
+                "StaleData/main"
             ],
             "problemMatcher": []
         },
         {
             "label": "run",
             "type": "shell",
-            "command": "${workspaceFolder}/AbdulBariRevision/main",
+            "command": "${workspaceFolder}/StaleData/main",
             "dependsOn":[
                 "build"
             ],
